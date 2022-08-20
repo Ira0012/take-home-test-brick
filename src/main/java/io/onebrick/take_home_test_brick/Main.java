@@ -15,7 +15,7 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        int count = 0;
+        int count = 1;
         int pgCnt = 1;
         List<String[]> csvData = new ArrayList<>();
         String[] header = new String[7];
