@@ -47,11 +47,11 @@ public class TokopediaPageServiceImpl implements TokopediaPageService {
 
                 csvData.add(toBePrintedToCsv);
 
-                if (count == 100) {
+                count++;
+
+                if (count == 101) {
                     break;
                 }
-
-                count++;
             }
             pgCnt++;
         }
